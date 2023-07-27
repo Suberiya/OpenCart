@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OpenCartSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utilities.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="5" name="OpenCardTest(failed)" verbose="0">
+    <classes>
+      <class name="testCases.TC_002_LoginTest">
+        <methods>
+          <include name="randomString"/>
+          <include name="setUp"/>
+          <include name="Test_Login"/>
+        </methods>
+      </class> <!-- testCases.TC_002_LoginTest -->
+    </classes>
+  </test> <!-- OpenCardTest(failed) -->
+</suite> <!-- Failed suite [OpenCartSuite] -->
